@@ -25,7 +25,7 @@ const FormAddCriminal = () => {
                     "Content-Type": "multipart/form-data"
                 }
             })
-            navigate("/")
+            navigate("/criminal")
         } catch (error) {
             console.log(error);
         }
